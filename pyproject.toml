@@ -7,7 +7,9 @@ authors = [
     { name = "Katherine Rosenfeld", email = "krosenf@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "numpy>=2.3.5",
+]
 
 [project.scripts]
 aoc-2025 = "project:main"
